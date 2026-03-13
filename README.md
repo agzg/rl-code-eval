@@ -1,7 +1,7 @@
 # rl-code-eval
 **Collaboration notice:** Ali Azam, Promita Rahee Sikder
 
-This codebase implements an RL post-training loop via Tinker (see the problem set for more details) to build a code-generating language model to solve programming problems by optimizing (mostly) a binary correctness signal from automated test execution. 
+This codebase implements an RL post-training loop via Tinker to build a code-generating language model to solve programming problems by optimizing (mostly) a binary correctness signal from automated test execution. 
 
 It builds off *Qwen 3 4B Instruct* as the initial checkpoint and uses Group Relative Policy Optimization (GRPO).
 
