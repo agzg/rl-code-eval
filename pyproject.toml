@@ -1,0 +1,20 @@
+[project]
+name = "part2-22"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp==3.13.2",
+    "matplotlib>=3.8.0",
+    "chz==0.4.0",
+    "datasets==4.4.2",
+    "pydantic==2.12.5",
+    "python-dotenv>=1.2.1",
+    "rich==14.2.0",
+    "tinker==0.7.0",
+    "torch==2.9.1",
+    "tqdm==4.67.1",
+    "transformers==4.57.3",
+    "wandb==0.23.1",
+]

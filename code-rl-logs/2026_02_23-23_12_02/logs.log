@@ -1,0 +1,66 @@
+tinker_utils.log:322 [INFO] Logging to: /Users/a/code-rl-logs/2026_02_23-23_12_02
+tinker_utils.log:171 [INFO] 
+[1;36mConfiguration:[0m
+  base_url: [3;35mNone[0m
+  log_path: [32m'/Users/a/code-rl-logs/2026_02_23-23_12_02'[0m
+  model_name: [32m'Qwen/Qwen3-4B-Instruct-2507'[0m
+  batch_size: [1;36m32[0m
+  group_size: [1;36m8[0m
+  learning_rate: [1;36m4e-05[0m
+  lora_rank: [1;36m32[0m
+  save_every: [1;36m10[0m
+  eval_every: [1;36m10[0m
+  max_tokens: [1;36m24576[0m
+  format_coef: [1;36m0.1[0m
+  reward_timeout: [1;36m6[0m
+  temperature: [1;36m1.0[0m
+  max_steps: [1;36m2[0m
+__main__:283 [INFO] Loading dataset...
+__main__:299 [INFO] Train: 24287  Test: 687
+tinker.lib.public_interfaces.service_client:66 [INFO] ServiceClient initialized for session eddb3c1d-266f-555b-bbc3-e3fb26ad14b6
+tinker.lib.public_interfaces.service_client:147 [INFO] TrainingClient initialized for model eddb3c1d-266f-555b-bbc3-e3fb26ad14b6:train:0
+tinker_utils.checkpoint:22 [INFO] No checkpoints found at /Users/a/code-rl-logs/2026_02_23-23_12_02/checkpoints.jsonl
+tinker_utils.checkpoint:51 [INFO] No checkpoints found with key state_path in /Users/a/code-rl-logs/2026_02_23-23_12_02
+__main__:343 [INFO] Ready - starting GRPO loop
+tinker_utils.log:119 [INFO] Wrote metrics to /Users/a/code-rl-logs/2026_02_23-23_12_02/metrics.jsonl
+tinker_utils.log:171 [INFO] 
+[3m                    Step 0                    [0m
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃[1;35m [0m[1;35mMetric                        [0m[1;35m [0m┃[1;35m [0m[1;35mValue    [0m[1;35m [0m┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│[36m [0m[36mtrain/correct                 [0m[36m [0m│[32m [0m[32m0.363281 [0m[32m [0m│
+│[36m [0m[36mtrain/format                  [0m[36m [0m│[32m [0m[32m-0.003906[0m[32m [0m│
+│[36m [0m[36mtrain/n_datums                [0m[36m [0m│[32m [0m[32m104      [0m[32m [0m│
+│[36m [0m[36mtrain/n_groups                [0m[36m [0m│[32m [0m[32m32       [0m[32m [0m│
+│[36m [0m[36mtrain/n_skipped               [0m[36m [0m│[32m [0m[32m19       [0m[32m [0m│
+│[36m [0m[36mtrain/reward                  [0m[36m [0m│[32m [0m[32m0.362891 [0m[32m [0m│
+└────────────────────────────────┴───────────┘
+__main__:428 [INFO] Evaluating at step 0...
+tinker_utils.log:119 [INFO] Wrote metrics to /Users/a/code-rl-logs/2026_02_23-23_12_02/metrics.jsonl
+tinker_utils.log:171 [INFO] 
+[3m                    Step 0                    [0m
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━┓
+┃[1;35m [0m[1;35mMetric                        [0m[1;35m [0m┃[1;35m [0m[1;35mValue    [0m[1;35m [0m┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━┩
+│[36m [0m[36meval/accuracy                 [0m[36m [0m│[32m [0m[32m0.230000 [0m[32m [0m│
+│[36m [0m[36meval/format_rate              [0m[36m [0m│[32m [0m[32m-0.010000[0m[32m [0m│
+│[36m [0m[36meval/n                        [0m[36m [0m│[32m [0m[32m100      [0m[32m [0m│
+│[36m [0m[36meval/reward                   [0m[36m [0m│[32m [0m[32m0.229000 [0m[32m [0m│
+└────────────────────────────────┴───────────┘
+tinker_utils.checkpoint:78 [INFO] Saved checkpoints: {'state_path': 'tinker://eddb3c1d-266f-555b-bbc3-e3fb26ad14b6:train:0/weights/checkpoint_step0'}
+__main__:445 [INFO] Checkpoint saved + sampler synced at step 0
+tinker_utils.log:119 [INFO] Wrote metrics to /Users/a/code-rl-logs/2026_02_23-23_12_02/metrics.jsonl
+tinker_utils.log:171 [INFO] 
+[3m                   Step 1                    [0m
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┓
+┃[1;35m [0m[1;35mMetric                        [0m[1;35m [0m┃[1;35m [0m[1;35mValue   [0m[1;35m [0m┃
+┡━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━┩
+│[36m [0m[36mtrain/correct                 [0m[36m [0m│[32m [0m[32m0.253906[0m[32m [0m│
+│[36m [0m[36mtrain/format                  [0m[36m [0m│[32m [0m[32m0.000000[0m[32m [0m│
+│[36m [0m[36mtrain/n_datums                [0m[36m [0m│[32m [0m[32m112     [0m[32m [0m│
+│[36m [0m[36mtrain/n_groups                [0m[36m [0m│[32m [0m[32m32      [0m[32m [0m│
+│[36m [0m[36mtrain/n_skipped               [0m[36m [0m│[32m [0m[32m18      [0m[32m [0m│
+│[36m [0m[36mtrain/reward                  [0m[36m [0m│[32m [0m[32m0.253906[0m[32m [0m│
+└────────────────────────────────┴──────────┘
+tinker_utils.checkpoint:78 [INFO] Saved checkpoints: {'state_path': 'tinker://eddb3c1d-266f-555b-bbc3-e3fb26ad14b6:train:0/weights/checkpoint_final', 'sampler_path': 'tinker://eddb3c1d-266f-555b-bbc3-e3fb26ad14b6:train:0/sampler_weights/checkpoint_final'}
+__main__:456 [INFO] Done. Logs at: /Users/a/code-rl-logs/2026_02_23-23_12_02

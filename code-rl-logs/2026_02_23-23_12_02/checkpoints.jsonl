@@ -1,0 +1,2 @@
+{"name": "checkpoint_step0", "step": 0, "dataset_idx": 64, "state_path": "tinker://eddb3c1d-266f-555b-bbc3-e3fb26ad14b6:train:0/weights/checkpoint_step0"}
+{"name": "checkpoint_final", "step": 2, "dataset_idx": 96, "state_path": "tinker://eddb3c1d-266f-555b-bbc3-e3fb26ad14b6:train:0/weights/checkpoint_final", "sampler_path": "tinker://eddb3c1d-266f-555b-bbc3-e3fb26ad14b6:train:0/sampler_weights/checkpoint_final"}

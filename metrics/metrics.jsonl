@@ -1,0 +1,20 @@
+{"step": 0, "lr": 4e-05, "train/reward_mean": 0.6171875, "train/num_datums": 64, "train/groups_skipped": 4, "time/step": 186.09109711647034}
+{"step": 1, "lr": 4e-05, "train/reward_mean": 0.38984375, "train/num_datums": 80, "train/groups_skipped": 3, "time/step": 458.80512619018555}
+{"step": 2, "lr": 4e-05, "train/reward_mean": 0.4375, "train/num_datums": 80, "train/groups_skipped": 3, "time/step": 304.40605068206787}
+{"step": 3, "lr": 4e-05, "train/reward_mean": 0.39765625, "train/num_datums": 80, "train/groups_skipped": 3, "time/step": 457.33442091941833}
+{"step": 4, "lr": 4e-05, "train/reward_mean": 0.13984375, "train/num_datums": 32, "train/groups_skipped": 6, "time/step": 496.90665006637573}
+{"step": 5, "lr": 4e-05, "train/reward_mean": 0.2171875, "train/num_datums": 80, "train/groups_skipped": 3, "time/step": 452.7343189716339}
+{"step": 6, "lr": 4e-05, "train/reward_mean": 0.4765625, "train/num_datums": 80, "train/groups_skipped": 3, "time/step": 270.19165802001953}
+{"step": 7, "lr": 4e-05, "train/reward_mean": 0.41171875, "train/num_datums": 80, "train/groups_skipped": 3, "time/step": 476.7517738342285}
+{"step": 8, "lr": 4e-05, "train/reward_mean": 0.3984375, "train/num_datums": 64, "train/groups_skipped": 4, "time/step": 392.34659028053284}
+{"step": 9, "lr": 4e-05, "train/reward_mean": 0.5, "train/num_datums": 48, "train/groups_skipped": 5, "time/step": 158.36761093139648}
+{"step": 10, "lr": 4e-05, "train/reward_mean": 0.5078125, "train/num_datums": 64, "train/groups_skipped": 4, "time/step": 207.29650592803955, "eval/correct": 0.26, "eval/format": 0.96, "eval/count": 50}
+{"step": 11, "lr": 4e-05, "train/reward_mean": 0.5078125, "train/num_datums": 32, "train/groups_skipped": 6, "time/step": 390.00543189048767}
+{"step": 12, "lr": 4e-05, "train/reward_mean": 0.46875, "train/num_datums": 32, "train/groups_skipped": 6, "time/step": 231.85945415496826}
+{"step": 13, "lr": 4e-05, "train/reward_mean": 0.1875, "train/num_datums": 48, "train/groups_skipped": 5, "time/step": 250.64579892158508}
+{"step": 14, "lr": 4e-05, "train/reward_mean": 0.171875, "train/num_datums": 48, "train/groups_skipped": 5, "time/step": 369.23897337913513}
+{"step": 15, "lr": 4e-05, "train/reward_mean": 0.0546875, "train/num_datums": 48, "train/groups_skipped": 5, "time/step": 277.2045319080353}
+{"step": 16, "lr": 4e-05, "train/reward_mean": 0.48828125, "train/num_datums": 64, "train/groups_skipped": 4, "time/step": 540.5938591957092}
+{"step": 17, "lr": 4e-05, "train/reward_mean": 0.21015625, "train/num_datums": 48, "train/groups_skipped": 5, "time/step": 588.3393211364746}
+{"step": 18, "lr": 4e-05, "train/reward_mean": 0.353125, "train/num_datums": 64, "train/groups_skipped": 4, "time/step": 592.9715440273285}
+{"step": 19, "lr": 4e-05, "train/reward_mean": 0.14375, "train/num_datums": 64, "train/groups_skipped": 4, "time/step": 546.4214169979095, "eval/correct": 0.34, "eval/format": 0.98, "eval/count": 50}
